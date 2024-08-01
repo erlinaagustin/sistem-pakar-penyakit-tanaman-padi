@@ -1,0 +1,261 @@
+ERROR - 2024-03-27 02:29:42 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('127.0.0.1', 'root', '', 'siskar_padi', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/Home.php(13): CodeIgniter\BaseModel->findAll()
+#7 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Home->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/Home.php(13): CodeIgniter\BaseModel->findAll()
+#6 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Home->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2024-03-27 02:29:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gejala`', [], false)
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Home.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-03-27 02:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-27 02:30:12 --> ErrorException: Undefined array key "range_min"
+in APPPATH/Controllers/Home.php on line 37.
+ 1 APPPATH/Controllers/Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "range_min"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/Home.php', 37)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 02:32:14 --> ErrorException: Undefined array key "kategori"
+in APPPATH/Controllers/Home.php on line 37.
+ 1 APPPATH/Controllers/Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/Home.php', 37)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-03-27 02:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 02:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 03:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-27 03:03:48 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:05:08 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:06:06 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:07:48 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:10:26 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:20:39 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-03-27 03:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-27 03:20:47 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:21:47 --> DivisionByZeroError: Division by zero
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->diagnosa()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-03-27 03:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 03:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 03:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 03:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-27 03:42:54 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/edit_data_gejala.php on line 16.
+ 1 APPPATH/Views/edit_data_gejala.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_gejala.php', 16)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_gejala.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_gejala.php', [], true)
+ 5 APPPATH/Controllers/GejalaController.php(47): view('edit_data_gejala.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\GejalaController->edit('data-pengetahuan')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GejalaController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:45:38 --> ErrorException: Undefined array key "nilai_agregasi_fuzzy"
+in APPPATH/Views/tabel_pengetahuan.php on line 48.
+ 1 APPPATH/Views/tabel_pengetahuan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_agregasi_fuzzy"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tabel_pengetahuan.php', 48)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tabel_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tabel_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(15): view('tabel_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:46:01 --> ErrorException: Undefined array key "id_knowledge"
+in APPPATH/Views/edit_data_pengetahuan.php on line 16.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_knowledge"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 16)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(89): view('edit_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:46:49 --> ErrorException: Undefined array key "id_penyakit"
+in APPPATH/Views/edit_data_pengetahuan.php on line 23.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyakit"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 23)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(89): view('edit_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:47:24 --> ErrorException: Undefined array key "id"
+in APPPATH/Views/edit_data_pengetahuan.php on line 23.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 23)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(89): view('edit_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:48:06 --> ErrorException: Undefined array key "kode_penyakit"
+in APPPATH/Views/edit_data_pengetahuan.php on line 23.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_penyakit"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 23)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(89): view('edit_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:50:57 --> ErrorException: Undefined array key "nilai_fs"
+in APPPATH/Views/edit_data_pengetahuan.php on line 43.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_fs"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 43)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(89): view('edit_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:50:59 --> ErrorException: Undefined array key "nilai_fs"
+in APPPATH/Views/edit_data_pengetahuan.php on line 43.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_fs"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 43)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(89): view('edit_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 03:51:05 --> ErrorException: Undefined array key "id_penyakit"
+in APPPATH/Views/tambah_data_pengetahuan.php on line 65.
+ 1 APPPATH/Views/tambah_data_pengetahuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_penyakit"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php', 65)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(27): view('tambah_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-03-27 23:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 23:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 23:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-27 23:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-27 23:18:53 --> ErrorException: Undefined array key "nilai_fs"
+in APPPATH/Views/edit_data_pengetahuan.php on line 43.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai_fs"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 43)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(89): view('edit_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-03-27 23:43:34 --> ErrorException: Undefined array key "fuzzyfikasi"
+in APPPATH/Views/tabel_pengetahuan.php on line 48.
+ 1 APPPATH/Views/tabel_pengetahuan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fuzzyfikasi"', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tabel_pengetahuan.php', 48)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tabel_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tabel_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(15): view('tabel_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')

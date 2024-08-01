@@ -1,0 +1,486 @@
+INFO - 2024-02-18 02:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:55:44 --> ErrorException: Undefined variable $pasien
+in APPPATH/Views/form_grafik.php on line 17.
+ 1 APPPATH/Views/form_grafik.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pasien', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik.php', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(79): view('form_grafik.php')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:57:58 --> ErrorException: Undefined array key "id_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:00 --> ErrorException: Undefined array key "id_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:19 --> ErrorException: Undefined array key "ID_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:20 --> ErrorException: Undefined array key "ID_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:37 --> ErrorException: Undefined array key "nama_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:39 --> ErrorException: Undefined array key "nama_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 22:41:00 --> mysqli_sql_exception: Table 'siskar_padi.artikel' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/Home.php(22): CodeIgniter\BaseModel->paginate(5, 'group1')
+#7 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Home->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2024-02-18 22:41:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'siskar_padi.artikel' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `artikel`', [], false)
+ 2 SYSTEMPATH/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH/BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH/Controllers/Home.php(22): CodeIgniter\BaseModel->paginate(5, 'group1')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 22:41:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'siskar_padi.artikel' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `artikel`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `artikel`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `artikel`', [], false)
+ 4 SYSTEMPATH/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH/BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH/Controllers/Home.php(22): CodeIgniter\BaseModel->paginate(5, 'group1')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 22:41:00 --> [Caused by] mysqli_sql_exception: Table 'siskar_padi.artikel' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `artikel`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `artikel`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `artikel`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `artikel`', [], false)
+ 5 SYSTEMPATH/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH/BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH/Controllers/Home.php(22): CodeIgniter\BaseModel->paginate(5, 'group1')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 22:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 22:41:53 --> Error: Class "App\Models\NakesModel" not found
+in APPPATH/Controllers/DashboardController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 22:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 22:47:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit_data_penyakit.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_data_penyakit.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_penyakit.php', [], true)
+ 3 APPPATH/Controllers/PenyakitController.php(43): view('edit_data_penyakit.php', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PenyakitController->edit('D05')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenyakitController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 22:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 22:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 22:57:21 --> Error: Class "App\Models\GejalaModel" not found
+in APPPATH/Controllers/GejalaController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\GejalaController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GejalaController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 22:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 23:31:28 --> ErrorException: Undefined variable $pengetahuan
+in APPPATH/Views/tambah_data_pengetahuan.php on line 23.
+ 1 APPPATH/Views/tambah_data_pengetahuan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengetahuan', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php', 23)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_data_pengetahuan.php', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(21): view('tambah_data_pengetahuan.php')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 23:37:53 --> ErrorException: Undefined variable $pasien
+in APPPATH/Views/tambah_data_pengetahuan.php on line 22.
+ 1 APPPATH/Views/tambah_data_pengetahuan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pasien', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php', 22)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(30): view('tambah_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 23:38:06 --> ErrorException: Undefined variable $pengetahuan
+in APPPATH/Views/tambah_data_pengetahuan.php on line 32.
+ 1 APPPATH/Views/tambah_data_pengetahuan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengetahuan', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php', 32)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(30): view('tambah_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 23:38:19 --> ErrorException: Undefined variable $pengetahuan
+in APPPATH/Views/tambah_data_pengetahuan.php on line 32.
+ 1 APPPATH/Views/tambah_data_pengetahuan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengetahuan', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php', 32)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(30): view('tambah_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 23:38:21 --> ErrorException: Undefined variable $pengetahuan
+in APPPATH/Views/tambah_data_pengetahuan.php on line 32.
+ 1 APPPATH/Views/tambah_data_pengetahuan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengetahuan', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php', 32)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/tambah_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('tambah_data_pengetahuan', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(30): view('tambah_data_pengetahuan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 23:53:06 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-02-18 23:53:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 23:53:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 23:53:06 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 23:55:39 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-02-18 23:55:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 23:55:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 23:55:39 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-18 23:55:54 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+#9 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+#10 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/siskar_padi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2024-02-18 23:55:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 23:55:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+CRITICAL - 2024-02-18 23:55:54 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (\'D02\', \'G001\', \'0.5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengetahuan` (`id_penyakit`, `id_gejala`, `nilai_fs`) VALUES (:id_penyakit:, :id_gejala:, :nilai_fs:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/PengetahuanController.php(42): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->simpan()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
+INFO - 2024-02-18 23:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 23:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 23:59:26 --> ErrorException: Undefined variable $penyakit
+in APPPATH/Views/edit_data_pengetahuan.php on line 19.
+ 1 APPPATH/Views/edit_data_pengetahuan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penyakit', '/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php', 19)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/app/Views/edit_data_pengetahuan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('edit_data_pengetahuan.php', [], true)
+ 5 APPPATH/Controllers/PengetahuanController.php(54): view('edit_data_pengetahuan.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PengetahuanController->edit('KN001')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengetahuanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/siskar_padi/public/index.php')
